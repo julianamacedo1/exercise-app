@@ -6,8 +6,8 @@ export default class TotalExercise extends React.Component {
         this.state = { minutes: 0 }
     }
 
-    totalMin = event => {
-        this.setState({ minutes: event.target.value })
+    totalMin = add => {
+        this.setState({ minutes: add.target.value })
     }
 
     render() {
