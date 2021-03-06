@@ -51,7 +51,7 @@ class MenuScreen extends React.Component {
           <>
             <h1>Go Do Something!</h1>
             <p>Select an exercise:</p>
-            <ul style={{ "padding": "5px", "list-style-type": "none" }}>
+            <ul>
               {filteredArray.map((obj, index) =>
                 <li key={index}>
                   <button
