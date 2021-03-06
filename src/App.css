@@ -2,5 +2,6 @@ body {
   background-color: #C6EBBE;
 }
 button {
-  
+  margin: 3px;
+  font-family: 'Courier New', Courier, monospace;
 }

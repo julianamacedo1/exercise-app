@@ -55,7 +55,6 @@ class MenuScreen extends React.Component {
               {filteredArray.map((obj, index) =>
                 <li key={index}>
                   <button
-                    style={{ "margin": "3px", "font-family": "courier"}}
                     onClick={() =>
                       this.setState({
                         currentScreen:
@@ -81,7 +80,6 @@ class MenuScreen extends React.Component {
               updateValue={(value) => this.updateValue(value)}
             ></RepetitionExercise>
             <button onClick={() => this.setState({ currentScreen: MENU })}
-              style={{ "margin": "3px", "font-family": "courier" }}
             >
               Back
             </button>
@@ -95,7 +93,6 @@ class MenuScreen extends React.Component {
               {...this.state.selectedItem}
             ></DurationExercise>
             <button onClick={() => this.setState({ currentScreen: MENU })}
-              style={{ "margin": "3px", "font-family": "courier" }}
             >
               Back
             </button>
