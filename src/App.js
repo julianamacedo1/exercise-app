@@ -65,7 +65,7 @@ class MenuScreen extends React.Component {
                         selectedItem: obj
                       })
                     }
-                  >{obj.name}</button><button></button>
+                  >{obj.name}</button><input></input>
                 </li>
               )}
             </ul>
