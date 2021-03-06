@@ -6,7 +6,7 @@ button {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   color: #647AA3;
-  background-color: #D7A6B3;
+  background-color: #F1BBCA;
   border-radius: 10px;
   width: 100px;
   height: 40px;
@@ -32,7 +32,7 @@ input {
   font-family: 'Courier New', Courier, monospace;
   width: 80px;
   height: 20px;
-  background-color: #D7A6B3;
+  background-color: #F1BBCA;
   color: #647AA3;
   border-radius: 10px;
   font-weight: bold;
