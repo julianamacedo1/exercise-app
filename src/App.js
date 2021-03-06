@@ -1,5 +1,5 @@
 import React from "react"
-import RepetitionExercise from "./components/RepetitionExercise"
+import RepetitionExercise from "components/RepetitionExercise"
 import DurationExercise from "./components/DurationExercise"
 
 const MENU = "menu"
