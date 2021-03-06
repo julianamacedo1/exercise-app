@@ -1,7 +1,7 @@
 body {
   background-color: #C6EBBE;
 }
-button {
+.main-button {
   margin: 10px 5px 5px 25px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
@@ -11,6 +11,9 @@ button {
   width: 100px;
   height: 40px;
   font-size: 15px;
+}
+button {
+  
 }
 h1 {
   font-family: 'Courier New', Courier, monospace;
