@@ -1,6 +1,7 @@
 import React from "react"
 import RepetitionExercise from "./components/RepetitionExercise"
 import DurationExercise from "./components/DurationExercise"
+import TotalExercise from "./components/TotalExercise"
 
 const MENU = "menu"
 const REPETITION_EXERCISE = "repetition_exercise"
@@ -66,6 +67,8 @@ class MenuScreen extends React.Component {
                 </li>
               )}
             </ul>
+            <p style={{ "margin": "10px 5px 5px 5px", "font-family": "courier" }}>Total time spent exercising today:</p>
+            <TotalExercise></TotalExercise>
           </>
         )
         break
