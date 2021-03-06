@@ -49,7 +49,7 @@ class MenuScreen extends React.Component {
           : this.state.currentObjects
         screen = (
           <>
-            <h2>Go Do Something!</h2>
+            <h1>Go Do Something!</h1>
             <p>Select an exercise:</p>
             <ul style={{ "padding": "5px", "list-style-type": "none" }}>
               {filteredArray.map((obj, index) =>
