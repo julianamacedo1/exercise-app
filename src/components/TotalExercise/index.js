@@ -10,5 +10,10 @@ export default class TotalExercise extends React.Component {
         this.setState({ username: event.target.value })
     }
 
-    render
+    render() {
+        return (
+            
+        )
+    }
+    
 }
