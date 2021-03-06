@@ -16,6 +16,7 @@ export default class TotalExercise extends React.Component {
                 <label>minutes:</label>
                 <input>
                     value = {this.state.minutes}
+                    onChange
                 </input>
             </form>
         )
