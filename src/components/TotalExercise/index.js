@@ -21,7 +21,7 @@ export default class TotalExercise extends React.Component {
                 >
                 </input>
             </form>
-            <p>total time:</p>   
+                <p>total time: {this.state.minutes}</p>   
             </>
         )
     }
