@@ -20,7 +20,7 @@ export default class TotalExercise extends React.Component {
                     value={this.state.minutes}
                     onChange={this.handleChange}
                 ></input>
-                
+                <button></button>
             </form>
                 <p style={{ "margin": "10px 5px 5px 5px", "font-family": "courier" }}>total time: {this.state.minutes}</p>   
             </>
