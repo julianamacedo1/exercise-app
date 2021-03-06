@@ -12,6 +12,7 @@ export default class TotalExercise extends React.Component {
 
     render() {
         return (
+            <>
             <form>
                 <label>minutes:</label>
                 <input>
@@ -19,6 +20,7 @@ export default class TotalExercise extends React.Component {
                     onChange
                 </input>
             </form>
+            </>
         )
     }
     
