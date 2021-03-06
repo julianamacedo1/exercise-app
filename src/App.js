@@ -67,7 +67,7 @@ class MenuScreen extends React.Component {
                 </li>
               )}
             </ul>
-            <p style={{ "margin": "10px 5px 5px 5px", "font-family": "courier" }}>Minutes spent exercising today:</p>
+            <p style={{ "margin": "10px 5px 5px 5px", "font-family": "courier" }}>Total minutes spent exercising today:</p>
             <TotalExercise></TotalExercise>
           </>
         )
