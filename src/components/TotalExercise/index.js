@@ -6,16 +6,8 @@ export default class TotalExercise extends React.Component {
         this.state = { minutes: '' }
     }
 
-    addMinutes() {
-        this.setState((oldTime) => {
-            let newTime = oldTime.value
-            this.props.newTime
-            return {
-                value: newTime
-            }
-        }
-
-        )
+    handleChange = event => {
+        this.setState({ minutes: event.target.value, value: 0 })
     }
 
     render() {
@@ -24,11 +16,13 @@ export default class TotalExercise extends React.Component {
             <form>
                 <input
                     style={{ "margin": "5px", "font-family": "courier"}}
-                    type="number"
+                    type="number" 
+                    value={this.state.minutes}
+                    onChange={this.handleChange}
                 ></input>
-                <button onClick={() => this.addMinutes()}>Submit</button>
+                
             </form>
-                <p style={{ "margin": "10px 5px 5px 5px", "font-family": "courier" }}>total time: {this.state.value}</p>   
+                <p style={{ "margin": "10px 5px 5px 5px", "font-family": "courier" }}>total time: {this.state.minutes}</p>   
             </>
         )
     }
