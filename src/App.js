@@ -2,6 +2,7 @@ import React from "react"
 import RepetitionExercise from "./components/RepetitionExercise"
 import DurationExercise from "./components/DurationExercise"
 import TotalExercise from "./components/TotalExercise"
+import "./App.css"
 
 const MENU = "menu"
 const REPETITION_EXERCISE = "repetition_exercise"
