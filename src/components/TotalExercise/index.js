@@ -13,7 +13,10 @@ export default class TotalExercise extends React.Component {
     render() {
         return (
             <form>
-                
+                <label>minutes:</label>
+                <input>
+                    value = ""
+                </input>
             </form>
         )
     }
