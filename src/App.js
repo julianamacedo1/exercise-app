@@ -16,6 +16,7 @@ class MenuScreen extends React.Component {
       { objType: "number", name: "Jumping Jacks", value: 0 },
       { objType: "timer", name: "Running" },
       { objType: "number", name: "Sit Ups", value: 0 },
+      { objType: "timer", name: "Planking" },
       { objType: "number", name: "Squats", value: 0 }
     ]
     this.state = {
