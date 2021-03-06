@@ -68,7 +68,7 @@ class MenuScreen extends React.Component {
               )}
             </ul>
             <p style={{ "margin": "10px 5px 5px 5px", "font-family": "courier" }}>Total time spent exercising today:</p>
-            <TotalExercise></TotalExercise>
+            <><TotalExercise></TotalExercise></>
           </>
         )
         break
