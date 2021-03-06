@@ -18,7 +18,7 @@ export default class TotalExercise extends React.Component {
                     style={{ "margin": "5px", "font-family": "courier"}}
                     type="number" 
                     value={this.state.minutes}
-                    onInput={this.handleChange}
+                    onInput={this.state}
                 >
                 </input>
                 <label style={{ "margin": "10px 5px 5px 5px", "font-family": "courier" }}>minutes</label>
