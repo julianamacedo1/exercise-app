@@ -7,7 +7,7 @@ export default class TotalExercise extends React.Component {
     }
 
     handleChange = event => {
-        this.setState({ username: event.target.value })
+        this.setState({ minutes: event.target.value })
     }
 
     render() {
@@ -15,7 +15,7 @@ export default class TotalExercise extends React.Component {
             <form>
                 <label>minutes:</label>
                 <input>
-                    value = ""
+                    value = 
                 </input>
             </form>
         )
