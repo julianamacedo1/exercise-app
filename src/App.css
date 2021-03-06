@@ -57,7 +57,18 @@ input {
   font-size: 20px;
   padding-left: 10px;
 }
-.check-box {
-  width: 17px;
+.check-box input {
+  position: relative;
+  z-index: -9999;
+}
+
+.check-box span {
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: #F6D2DC;
+}
+
+.check-box input:checked + span {
   background: #F6D2DC;
 }
