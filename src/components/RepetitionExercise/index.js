@@ -26,8 +26,8 @@ export default class RepetitionExercise extends React.Component {
     render() {
         return (
             <>
-                <p style={{ "margin": "10px 5px 5px 5px", "font-family": "courier" }}>{this.props.name}</p>
-                <p style={{ "margin": "10px 5px 5px 5px", "font-family": "courier" }}>Reps: {this.state.value}</p>
+                <p>{this.props.name}</p>
+                <p>Reps: {this.state.value}</p>
                 <button onClick={() => this.addOne()} >Complete Rep</button>
                 <button onClick={() => this.reset()} >Reset</button>
             </>

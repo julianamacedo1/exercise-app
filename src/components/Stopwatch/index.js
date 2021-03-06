@@ -41,7 +41,7 @@ export default class Stopwatch extends React.Component {
         let minutes = ("0" + (Math.floor(timerTime / 60000) % 60)).slice(-2);
         return (
             <>
-                <p style={{ "margin": "10px 5px 5px 5px", "font-family": "courier" }}>
+                <p>
                     Timer: {minutes} : {seconds} : {centiseconds}
                 </p>
                 {this.state.timerOn === false && this.state.timerTime === 0 && (
