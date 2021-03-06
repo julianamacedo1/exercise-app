@@ -45,16 +45,16 @@ export default class Stopwatch extends React.Component {
                     Timer: {minutes} : {seconds} : {centiseconds}
                 </p>
                 {this.state.timerOn === false && this.state.timerTime === 0 && (
-                    <button onClick={this.startTimer} style={{ "margin": "3px", "font-family": "courier" }}>Start</button>
+                    <button onClick={this.startTimer} >Start</button>
                 )}
                 {this.state.timerOn === true && (
-                    <button onClick={this.stopTimer} style={{ "margin": "3px", "font-family": "courier" }}>Stop</button>
+                    <button onClick={this.stopTimer} >Stop</button>
                 )}
                 {this.state.timerOn === false && this.state.timerTime > 0 && (
-                    <button onClick={this.startTimer} style={{ "margin": "3px", "font-family": "courier" }}>Resume</button>
+                    <button onClick={this.startTimer} >Resume</button>
                 )}
                 {this.state.timerOn === false && this.state.timerTime > 0 && (
-                    <button onClick={this.resetTimer} style={{ "margin": "3px", "font-family": "courier" }}>Reset</button>
+                    <button onClick={this.resetTimer} >Reset</button>
                 )}
             </>   
         );
