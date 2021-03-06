@@ -11,7 +11,7 @@ export default class TotalExercise extends React.Component {
             let newTime = oldTime.value
             this.props.updateTime(newTime)
             return {
-                value: newTime,
+                value: newTime
             }
         }
 
