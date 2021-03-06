@@ -55,6 +55,7 @@ class MenuScreen extends React.Component {
               {filteredArray.map((obj, index) =>
                 <li key={index}>
                   <button
+                    class="main-button"
                     onClick={() =>
                       this.setState({
                         currentScreen:
