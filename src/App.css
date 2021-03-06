@@ -4,7 +4,7 @@ body {
 }
 .main-button {
   margin: 5px 5px 5px 25px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Quicksand', sans-serif;  
   font-weight: bold;
   color: #647AA3;
   background-color: #F1BBCA;
@@ -15,7 +15,7 @@ body {
 }
 button {
   margin: 10px 5px 5px 25px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Quicksand', sans-serif;
   font-weight: bold;
   color: #647AA3;
   background-color: #F1BBCA;
@@ -24,18 +24,18 @@ button {
   height: 30px;
 }
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   margin: 10px 5px 5px 25px;
   color: #647AA3;
 }
 p {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Quicksand', sans-serif;
   margin: 10px 5px 5px 25px;
   color: #647AA3;
   font-weight: bold;
 }
 .total-time {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Quicksand', sans-serif;
   margin: 10px 5px 5px 25px;
   color: #647AA3;
   font-weight: bold;
@@ -47,7 +47,7 @@ ul {
 }
 input {
   margin: 10px 5px 5px 25px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Quicksand', sans-serif;
   width: 80px;
   height: 20px;
   background-color: #F1BBCA;
