@@ -49,10 +49,11 @@ input {
   margin: 10px 5px 5px 25px;
   font-family: 'Quicksand', sans-serif;
   width: 80px;
-  height: 20px;
+  height: 25px;
   background-color: #F1BBCA;
   color: #647AA3;
   border-radius: 10px;
   font-weight: bold;
   font-size: 20px;
+  padding-left: 10px;
 }
