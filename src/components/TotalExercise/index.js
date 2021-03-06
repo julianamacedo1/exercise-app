@@ -14,12 +14,13 @@ export default class TotalExercise extends React.Component {
         return (
             <>
             <form>
-                <label>minutes:</label>
+                
                 <input
                     value={this.state.minutes}
                     onChange={this.handleChange}
                 >
                 </input>
+                <label style={{ "margin": "10px 5px 5px 5px", "font-family": "courier" }}>minutes</label>
             </form>
                 <p>total time: {this.state.minutes}</p>   
             </>
