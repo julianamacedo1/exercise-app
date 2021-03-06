@@ -15,7 +15,6 @@ export default class TotalExercise extends React.Component {
             <>
             <p>Total minutes spent exercising today:</p>
             <input
-                style={{ "margin": "5px", "font-family": "courier", "width": "80px", "height": "20px"}}
                 type="number" 
                 value={this.state.minutes}
                 onChange={this.totalMin}

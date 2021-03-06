@@ -24,3 +24,9 @@ ul {
   padding: 5px;
   list-style-type: none;
 }
+input {
+  margin: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  width: 80px;
+  height: 20px;
+}
