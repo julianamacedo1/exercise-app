@@ -25,7 +25,7 @@ export default class TotalExercise extends React.Component {
                 <input
                     style={{ "margin": "5px", "font-family": "courier"}}
                     type="number" 
-                    
+                   
                 ></input>
                 <button onClick={() => this.addMinutes()}>Submit</button>
             </form>
