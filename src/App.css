@@ -4,5 +4,7 @@ body {
 button {
   margin: 3px;
   font-family: 'Courier New', Courier, monospace;
-  color: #95B2B0;
+  font-weight: bold;
+  background-color: #95B2B0;
+  border-radius: 5px;
 }
