@@ -8,7 +8,7 @@ export default class TotalExercise extends React.Component {
 
     addMinutes() {
         this.setState((oldTime) => {
-            let newTime = oldTime.minutes
+            let newTime = oldTime.value
             this.props.updateTime(newTime)
             return {
                 value: newTime
@@ -25,7 +25,7 @@ export default class TotalExercise extends React.Component {
                 <input
                     style={{ "margin": "5px", "font-family": "courier"}}
                     type="number" 
-                   
+                    value={this.state.minutes}
                 ></input>
                 <button onClick={() => this.addMinutes()}>Submit</button>
             </form>
