@@ -8,7 +8,7 @@ export default class TotalExercise extends React.Component {
 
     addMinutes() {
         this.setState((oldTime) => {
-            let newTime = oldTime.value
+            let newTime = oldTime.value +1
             this.props.updateTime
             return {
                 value: newTime,
