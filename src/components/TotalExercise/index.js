@@ -18,6 +18,7 @@ export default class TotalExercise extends React.Component {
                     style={{ "margin": "5px", "font-family": "courier"}}
                     type="number" 
                     value={this.state.minutes}
+                    onChange={this.handleChange}
                 >
                 </input>
                 <button style={{ "margin": "3px", "font-family": "courier" }}>Submit</button>
