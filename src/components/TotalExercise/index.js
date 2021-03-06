@@ -10,6 +10,9 @@ export default class TotalExercise extends React.Component {
         this.setState((oldTime) => {
             let newTime = oldTime.value
             this.props.updateTime
+            return {
+                
+            }
         }
 
         )
