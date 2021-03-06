@@ -22,7 +22,7 @@ export default class TotalExercise extends React.Component {
                 </input>
                 <button style={{ "margin": "3px", "font-family": "courier" }}>Submit</button>
             </form>
-                <p style={{ "margin": "10px 5px 5px 5px", "font-family": "courier" }}>total time: {this.state.minutes} minutes</p>   
+                <p style={{ "margin": "10px 5px 5px 5px", "font-family": "courier" }}>total time: {this.state.minutes}</p>   
             </>
         )
     }
