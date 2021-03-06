@@ -21,6 +21,7 @@ export default class TotalExercise extends React.Component {
                     >
                     </input>
             </form>
+                
             </>
         )
     }
