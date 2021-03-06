@@ -7,7 +7,9 @@ export default class TotalExercise extends React.Component {
     }
 
     addMinutes() {
-        this.setState({})\\\
+        this.setState(
+            
+        )
     }
 
     render() {
