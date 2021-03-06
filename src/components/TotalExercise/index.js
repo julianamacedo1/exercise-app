@@ -13,7 +13,7 @@ export default class TotalExercise extends React.Component {
     render() {
         return (
             <>
-            <p>Total minutes spent exercising today:</p>
+            <p>Enter total minutes spent exercising today:</p>
             <input
                 type="number" 
                 value={this.state.minutes}
