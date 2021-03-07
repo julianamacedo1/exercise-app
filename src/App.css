@@ -23,9 +23,13 @@ button {
   font-weight: bold;
   color: #647AA3;
   background-color: #F6D2DC;
-  border-radius: 10px;
+  border-radius: 20px;
   width: 120px;
   height: 30px;
+}
+button:hover {
+  color: #F6D2DC;
+  background-color: #647AA3;
 }
 h1 {
   font-family: 'Quicksand', sans-serif;
