@@ -34,16 +34,6 @@ button {
   width: 120px;
   height: 30px;
 }
-button:hover {
-  margin: 10px 5px 5px 25px;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: bold;
-  color: #647AA3;
-  background-color: #F6D2DC;
-  border-radius: 10px;
-  width: 120px;
-  height: 30px;
-}
 h1 {
   font-family: 'Quicksand', sans-serif;
   margin: 10px 5px 5px 25px;
