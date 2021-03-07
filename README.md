@@ -6,7 +6,7 @@ Check off exrcises that have been completed.
 
 Enter the total minutes spent exercising.
 
-It can be found here: 
+It can be foun here: 
 
 https://julianamacedo1.github.io/exercise-app/
 
