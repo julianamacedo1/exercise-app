@@ -3,7 +3,7 @@ body {
   background-color: #B4C5E6;
 }
 .main-button {
-  text-align: center;
+  align-items: center;
   font-family: 'Quicksand', sans-serif;  
   font-weight: bold;
   color: #647AA3;
