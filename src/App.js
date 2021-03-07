@@ -50,7 +50,7 @@ class MenuScreen extends React.Component {
         screen = (
           <>
             <h1>Go Do Something!</h1>
-            <p>Select an exercise:</p>
+            <h3>Select an exercise:</h3>
             <ul>
               {filteredArray.map((obj, index) =>
                 <li key={index}>
