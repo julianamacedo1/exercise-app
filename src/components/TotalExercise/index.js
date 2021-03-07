@@ -17,7 +17,7 @@ export default class TotalExercise extends React.Component {
             <input
                 type="number" 
                 value={this.state.minutes}
-                onChange={this.totalMin}
+                onClick={this.totalMin}
             ></input>
             <p class="total-time">Total time: {this.state.minutes} minutes</p>   
             </>
